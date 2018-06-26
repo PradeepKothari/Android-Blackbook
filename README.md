@@ -54,7 +54,8 @@ TABLE OF CONTENTS
 Source : https://www.wileyindia.com/android-application-development-with-kitkat-support-black-book.html
 
 The term and Conditions to use this code is as per Book ISBN: 9789351194095. Please refer book for more detials .
-You can buy book from 
+
+You can buy book from :
 
 https://www.amazon.in/Android-Application-Development-Kitkat-Support/dp/9351194094
 https://www.flipkart.com/android-application-development-with-kitkat-support-black-book/p/itmdwgahhkcgjgj9
