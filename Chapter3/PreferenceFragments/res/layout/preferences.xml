@@ -1,0 +1,10 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+      
+    <PreferenceCategory
+        android:title="PreferenceCategory A">
+        <CheckBoxPreference
+            android:key="PREF_CHECKBOX"
+            android:title="Title"
+            android:summary="summary" />
+    </PreferenceCategory>
+ </PreferenceScreen>

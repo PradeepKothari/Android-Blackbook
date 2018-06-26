@@ -1,0 +1,52 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width = "fill_parent"
+	android:layout_height = "fill_parent"
+	android:paddingLeft = "16dp"
+	android:paddingRight = "16dp"
+	android:orientation = "vertical" >
+<Button
+	android:id = "@+id/turn_on"
+	android:layout_height = "wrap_content"
+	android:layout_width = "fill_parent"
+	android:onClick = "turnOn" 
+	android:text = "Turn On Bluetooth"/>
+<Button
+	android:id = "@+id/discoverable"
+	android:layout_height = "wrap_content"
+	android:layout_width = "fill_parent" 
+	android:onClick = "discoverable"
+	android:text = "Make Your Device Discoverable"/>
+<Button
+	android:id = "@+id/turn_off"
+	android:layout_height = "wrap_content"
+	android:layout_width = "fill_parent" 
+	android:onClick = "TurnOf"
+	android:text = "Turn Off Bluetooth"/>
+<Button
+	android:id = "@+id/paired"
+	android:layout_height = "wrap_content"
+	android:layout_width = "fill_parent" 
+	android:onClick = "paired"
+	android:text = "List of Paired Devices"/>
+<Button
+	android:id = "@+id/new_device"
+	android:layout_height = "wrap_content"
+	android:layout_width = "fill_parent" 
+	android:onClick = "newdevice"
+	android:text = "List of New Devices"/>
+<ScrollView
+	android:id = "@+id/textAreaScroller"
+	android:layout_width = "fill_parent"
+	android:layout_height = "fill_parent"
+	android:layout_below = "@+id/button4" >
+<TextView
+	android:id = "@+id/textView1"
+	android:layout_width = "wrap_content"
+	android:layout_height = "wrap_content"
+	android:layout_alignParentLeft = "true"
+	android:layout_marginLeft = "18dp"
+	android:text = "Showing Paired Devices:" />
+</ScrollView>
+</LinearLayout>

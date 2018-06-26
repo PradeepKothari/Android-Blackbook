@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical">
+    
+<TextView
+	        android:id="@+id/ipaddess"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="All the response from client will be shown here" >
+</TextView>
+
+<TextView
+	        android:id="@+id/text2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="" >
+</TextView>
+</LinearLayout>

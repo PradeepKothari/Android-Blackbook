@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <TextView
+        android:id="@+id/label_uname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Enter User Name" />
+    <EditText
+        android:id="@+id/text_uname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/label_uname"
+        android:text="Your Text" />
+    <TextView
+        android:id="@+id/label_uemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/label_uname"
+        android:layout_marginTop="26dp"
+        android:text="Enter User Email" />
+    <EditText
+        android:id="@+id/text_uemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/text_uname"
+        android:layout_alignTop="@+id/label_uemail"
+        android:text="Your Text" />
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/label_uemail"
+        android:layout_marginTop="28sp"
+        android:text="Login" /> 
+</RelativeLayout>

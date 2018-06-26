@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+ android:orientation="vertical"
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent">
+ 	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+ 		android:layout_height="fill_parent"
+ 		android:layout_weight="1">
+ 	<TextView
+		android:text="Enter User Name"
+		android:gravity="center_horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:background="#0000aa"
+		android:textSize="30dp"
+		android:layout_weight="1"/>
+	<EditText
+		android:gravity="center_horizontal"
+		android:text="Your text"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:textSize="30dp"
+		android:background="#00aa00"
+		android:layout_weight="1"/>
+	<TextView
+		android:text="Enter Email Address"
+		android:gravity="center_horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:textSize="30dp"
+		android:background="#0000aa"
+		android:layout_weight="1"/>
+	<EditText
+		android:text="Your text"
+		android:gravity="center_horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:textSize="30dp"
+		android:background="#00aa00"
+		android:layout_weight="1"/>
+	<Button
+		android:text="Login"
+		android:textSize="30dp"
+		android:gravity="center_horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:background="#0000aa"
+		android:layout_weight="1"/>
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1">
+	<TextView
+		android:text="Enter User Name"
+		android:gravity="center_horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="#aa0000"
+		android:textSize="30dp"
+		android:layout_weight="1"/>
+	<EditText
+		android:gravity="center_horizontal"
+		android:text="Your text"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="30dp"
+		android:background="#aaaa00"
+		android:layout_weight="1"/>
+	<TextView
+		android:text="Enter Email Address"
+		android:gravity="center_horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="30dp"
+		android:background="#aa0000"
+		android:layout_weight="1"/>
+	<EditText
+		android:text="Your text"
+		android:gravity="center_horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="30dp"
+		android:background="#aaaa00"
+		android:layout_weight="1"/>
+	<Button
+		android:text="Login"
+		android:textSize="30dp"
+		android:gravity="center_horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="#aa0000"
+		android:layout_weight="1"/>
+  	</LinearLayout>
+ </LinearLayout>

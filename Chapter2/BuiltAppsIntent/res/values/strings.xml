@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BuiltAppsIntent</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello">Hello world!</string>
+    <string name="edit_contact">Edit Contact</string>
+    <string name="show_browser">Show Browser</string>
+    <string name="dial_number">Dial a Number</string>
+
+</resources>

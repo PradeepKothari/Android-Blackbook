@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+
+   <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Recording Demo : Please Press desired option  " />
+   
+   <Button android:id="@+id/button1"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:onClick="start" 
+        android:text="Start Recording"/>
+   
+   <Button android:id="@+id/button2"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" 
+        android:onClick="stop"
+        android:text="Stop Recording"/>
+   
+   <Button android:id="@+id/button3"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" 
+        android:onClick="play"
+        android:text="Play Rcording"/>
+   
+   <Button android:id="@+id/button4"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" 
+        android:onClick="reset"
+        android:text="Reset Recording"/>
+
+
+</LinearLayout>

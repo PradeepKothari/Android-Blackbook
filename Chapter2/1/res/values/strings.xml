@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <color name="BackgroundColor">#337700</color>
+    <string name="AlertBoxMessage">Do You Like Icecream</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="CanNotSay">Cant Say</string>
+</resources>

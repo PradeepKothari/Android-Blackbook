@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	 android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+    <Button android:text="Get Server Response "
+        android:id="@+id/save"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actual Received Json :" />
+     <TextView
+         android:id="@+id/actualparsedcontent" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+     <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Parsed Json :"/>
+       <TextView android:id="@+id/content" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
+</LinearLayout>

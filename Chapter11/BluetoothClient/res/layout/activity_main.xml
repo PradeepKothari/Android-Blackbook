@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    	android:layout_width = "fill_parent"
+    	android:layout_height = "fill_parent"
+    	android:orientation = "vertical" >
+<TextView
+        android:id = "@+id/xaxis"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:gravity = "center"
+        android:text = "Press Enter the Text and press Send"/>
+<EditText
+        android:id = "@+id/Text"
+        android:layout_width = "fill_parent"
+        android:layout_height = "wrap_content"
+        android:textSize = "18sp"/>
+<Button
+        android:id = "@+id/send"
+        android:layout_width = "fill_parent"
+        android:layout_height = "wrap_content"
+        android:onClick = "send"
+        android:text="Send To server"/>
+<TextView
+        android:id = "@+id/ReceivedFromServer"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:gravity = "center"/>
+</LinearLayout>

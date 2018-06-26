@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClockFragment" 
+    android:background="@android:color/black">
+    <ListView
+        android:id="@+id/number_list"
+        android:layout_width="250dip"
+        android:layout_height="match_parent" />
+    <fragment
+        android:id="@+id/the_frag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/number_list"
+        class="com.kogent.android.ClockFragment" />
+</RelativeLayout>
+

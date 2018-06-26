@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PersistInternally</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello">Hello World,  PersistInternallyActivity!</string>
+    <string name="title">Book Title:</string>
+    <string name="publisherName">Publisher Name:</string>
+    <string name="price">Price:</string>
+    <string name="save">Save the Book Details</string>
+    
+
+</resources>

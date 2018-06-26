@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BindingData</string>
+    <string name="hello">BindingData</string>
+    <string name="action_settings">Settings</string>
+    <string name="food_menu_items">Select an item</string>
+    <string-array name="menu_items">
+        <item >South Indian</item>
+        <item >North Indian</item>
+        <item >Chinese</item>
+        <item >Italian</item>
+        <item >Thai</item>
+        <item >Snacks</item>
+        <item >Continental</item>
+    </string-array>
+
+</resources>

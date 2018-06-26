@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmployeeDatabaseAppActivity" >
+
+    <Button
+        android:id="@+id/addEmp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/updateEmp"
+        android:text="Add an Employee" />
+
+    <Button
+        android:id="@+id/updateEmp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/addEmp"
+        android:layout_marginTop="16dp"
+        android:text="Update an Employee" />
+
+    <Button
+        android:id="@+id/deleteEmp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/updateEmp"
+        android:layout_below="@+id/updateEmp"
+        android:layout_marginTop="30dp"
+        android:text="Delete an Employee" />
+
+    <Button
+        android:id="@+id/selectEmp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/deleteEmp"
+        android:layout_below="@+id/deleteEmp"
+        android:layout_marginTop="23dp"
+        android:text="Get an Employee" />
+
+    <Button
+        android:id="@+id/selectAllEmp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/selectEmp"
+        android:layout_below="@+id/selectEmp"
+        android:layout_marginTop="30dp"
+        android:text="Get All Employees" />
+
+
+</RelativeLayout>

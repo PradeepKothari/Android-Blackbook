@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TableRow>
+        <TextView
+            android:text="Enter User Name" android:width="300px" />
+        <EditText
+            android:id="@+id/text_uname" android:width="200px" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Enter Email" android:width="300px" />
+        <EditText
+            android:id="@+id/text_uemail" android:width="200px" />
+    </TableRow>
+    <TableRow>
+        <TextView />
+        <Button
+            android:id="@+id/login" android:text="Login" />
+    </TableRow>
+</TableLayout>

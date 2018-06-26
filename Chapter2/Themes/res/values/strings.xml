@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Themes</string>
+    <string name="action_settings">Settings</string>
+     <string name="hello_world">We use themes to override the default look and feel of an Android application. A theme is a set of styles.Android theme was inspired by CSS styles. We normally separate the styles to CSS file in our web
+applications, in the same way we are separating Android styles to themes.
+</string>
+</resources>

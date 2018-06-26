@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical" >
+    
+    <TextView android:text="Click on the screen to start playing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        
+    </TextView>
+    
+     <Button android:id="@+id/Start_Play"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:text="Start_Play"/>
+    
+    
+    
+</LinearLayout>

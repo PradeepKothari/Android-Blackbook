@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" />
+<Button 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="@string/show_alert" 
+	android:id="@+id/alertbtn"></Button>
+<Button 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="@string/show_progress" 
+	android:id="@+id/progressbtn"></Button>
+<Button 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="Show Custom Dialog Box" 
+	android:id="@+id/custombtn"></Button>
+<Button 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="Show DatePicker" 
+	android:id="@+id/datepickerbtn"></Button>
+<Button 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="Show TimePicker" 
+	android:id="@+id/timepickerbtn"></Button>
+<TextView 
+	android:id="@+id/timeDisplay" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text=""/>
+<TextView 
+	android:id="@+id/dateDisplay" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text=""/>
+</LinearLayout>
+

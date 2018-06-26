@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+     <Button android:id="@+id/sdcardaudio"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" 
+        android:text="@string/sdcard_audio"/>
+    
+    <Button android:id="@+id/resaudio"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" 
+        android:text="@string/res_audio"/>
+    
+     <Button android:id="@+id/httpaudio"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" 
+        android:text="@string/http_audio"/>
+     
+    <Button android:id="@+id/sdcardvideo"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" 
+        android:text="@string/sdcard_video"/>
+ 
+     <Button android:id="@+id/resvideo"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" 
+        android:text="@string/res_video"/>
+       
+    <Button android:id="@+id/httpvideo"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" 
+        android:text="@string/http_video"/>
+    
+   
+</LinearLayout>
