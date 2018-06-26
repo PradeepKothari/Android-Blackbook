@@ -49,4 +49,4 @@ Source : https://www.wileyindia.com/android-application-development-with-kitkat-
 
 The term and Conditions to use this code is as per Book ISBN: 9789351194095. Please refer book for more detials .
 
-If you face any issues or have query please feel free to email me at yourpradeepkothari@gmail.com
+If you face any issues or have query, please feel free to email me at yourpradeepkothari@gmail.com
